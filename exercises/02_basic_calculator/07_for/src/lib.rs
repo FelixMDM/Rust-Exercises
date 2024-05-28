@@ -3,7 +3,7 @@ pub fn factorial(n: u32) -> u32 {
 
     let mut result = 1;
 
-    for mut i in 1..n {
+    for mut i in 1..=n {
         result *= i;
         i += 1;
     }
